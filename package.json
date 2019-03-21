@@ -1,0 +1,44 @@
+{
+  "name": "koa_iframe",
+  "version": "0.0.1",
+  "description": "learner",
+  "main": "u3.js",
+  "repository": "xx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kesikesie",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "antd": "^3.15.1",
+    "babel-core": "^7.0.0-0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.11.0",
+    "css-loader": "^2.1.1",
+    "debug": "^4.1.1",
+    "ejs": "^2.6.1",
+    "fs": "0.0.1-security",
+    "include-all": "^4.0.3",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "moment": "^2.24.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "webpack": "^4.29.6",
+    "webpack-merge": "^4.2.1"
+  }
+}
