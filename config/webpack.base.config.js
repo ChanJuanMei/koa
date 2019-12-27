@@ -30,7 +30,29 @@ module.exports = {
         test: /\.(js|jsx)$/,
         use: {
           loader: 'babel-loader',
-          options: babelConfig
+          // options: babelConfig
+           options: {
+              babelrc: false,
+              presets: [
+                  ['@babel/preset-env', {
+                      targets: {
+                          browsers: ['last 3 versions', 'Safari >= 10', 'iOS >= 10','ie >= 10']
+                      },
+                      useBuiltIns: 'entry'
+                  }],
+                  '@babel/preset-react'
+              ],
+              "plugins": [
+                  ["import", {
+                      "libraryName": "antd",
+                      "style": "css"
+                  }],
+                  // ['@babel/plugin-transform-runtime',{
+                  //     "regenerator": true
+                  //   }],
+                  "@babel/plugin-proposal-class-properties",
+              ]
+          },
         }
       },
       {
@@ -41,14 +63,6 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader',
           // 'postcss-loader',
-          {
-            loader: 'postcss-loader',
-            options: {
-              plugins: () => {
-                return [];
-              }
-            }
-          },
           'less-loader'
         ]
       }

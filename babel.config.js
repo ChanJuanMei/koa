@@ -1,21 +1,16 @@
-const babelConfig = {
-  presets: [
-    '@babel/env',
-    '@babel/preset-react'
-  ],
-  'plugins': [
-    [
-      'import',
-      { 'libraryName': 'antd', 'libraryDirectory': 'lib' },
-      'ant'
-    ],
-    [
-      'import',
-      { 'libraryName': 'antd-mobile', 'libraryDirectory': 'lib' },
-      'antd-mobile'
-    ],
-    '@babel/plugin-proposal-class-properties'
-  ]
-};
+// const babelConfig = {
+//   presets: [
+//     '@babel/env',
+//     '@babel/preset-react',
+//     'module:@babel/plugin-proposal-class-properties'
+//   ],
+//   'plugins': [
+//      ["import", { 
+//         "libraryName": "antd",
+//         "libraryDirectory": "lib",  // libraryDirectory 默认为 lib
+//         "style": "css" ,
+//     }],
+//   ]
+// };
 
-module.exports = babelConfig;
+// module.exports = babelConfig;

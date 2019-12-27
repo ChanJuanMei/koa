@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Layout, Menu } from 'antd'
+import { Layout, Menu, Icon, Breadcrumb } from 'antd'
 const { Header, Content, Sider } = Layout;
 
 const { SubMenu } = Menu;
@@ -20,7 +20,8 @@ class MainLayout extends Component {
   render() {
     return (
       <div>
-         <Layout>
+      {/* layout */}
+         {/* <Layout>
           <Header className="header">
             <div className="logo" />
             <Menu
@@ -76,7 +77,8 @@ class MainLayout extends Component {
               </Content>
             </Layout>
           </Layout>
-        </Layout>
+        </Layout> */}
+        {/* layout */}
      </div>
     )
   }
