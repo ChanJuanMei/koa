@@ -19,8 +19,8 @@
   "dependencies": {
     "antd": "^3.15.1",
     "babel-core": "^7.0.0-0",
-    "babel-loader": "^7.1.5",
-    "css-loader": "^2.1.1",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.3",
     "debug": "^4.1.1",
     "ejs": "^2.6.1",
     "fs": "0.0.1-security",
@@ -31,16 +31,16 @@
     "koa-static": "^5.0.0",
     "koa-views": "^6.1.5",
     "less": "^3.10.3",
-    "less-loader": "^4.1.0",
-    "mini-css-extract-plugin": "^0.5.0",
+    "less-loader": "^11.1.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "moment": "^2.24.0",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^7.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "webpack": "^4.29.6",
+    "webpack": "^5.75.0",
     "webpack-merge": "^4.2.1"
   }
 }
